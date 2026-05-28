@@ -230,6 +230,11 @@ class Agent():
                     action.item()
                 )
 
+                # ===== REWARD SHAPING: Add bonus for surviving =====
+                if not terminated:
+                    reward = reward + 0.1
+                # ===== END REWARD SHAPING =====
+
                 episode_reward += reward
 
                 # Convert to tensors
@@ -466,6 +471,6 @@ if __name__ == '__main__':
     )
 
     dql.run(
-    is_training=args.train,
-    render=True
-)
+        is_training=args.train,
+        render=True
+    )

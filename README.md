@@ -90,7 +90,7 @@ This project demonstrates practical reinforcement learning by training an intell
 #### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/deep-reinforcement-learning-flappy-bird.git
+git clone https://github.com/Vishal3347/deep-reinforcement-learning-flappy-bird.git
 cd deep-reinforcement-learning-flappy-bird
 ```
 

@@ -376,20 +376,4 @@ For questions or issues:
 - Check existing documentation in `README.md`
 - Review the troubleshooting section above
 
----
 
-## 🎓 Educational Value
-
-This project is designed to teach:
-- Practical implementation of DQN from scratch
-- PyTorch neural network development
-- Reinforcement learning principles
-- Hyperparameter tuning and optimization
-- Training monitoring and visualization
-
-Perfect for students and researchers learning deep RL!
-
----
-
-**Last Updated:** January 2025
-**Project Status:** Active Development
